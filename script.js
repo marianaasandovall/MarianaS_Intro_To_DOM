@@ -1,13 +1,11 @@
-let titleElement = document.getElementById("title");
-console.log(titleElement);
+let heading = document.querySelector("#main-heading");
+console.log("querySelector - heading:", heading);
 
-let paragraph = document.querySelector("p");
-console.log(paragraph);
+let paragraph = document.querySelector(".description");
+console.log("querySelector - first paragraph with .description:", paragraph);
 
-let header3 = document.querySelector(".header3");
-console.log(header3);
+let button = document.querySelector("#changeText");
+console.log("querySelector - button:", button);
 
-let header4 = document.querySelector(".header4");
-console.log(header4);
-
-
+let allParagraphs = document.querySelectorAll("p");
+console.log("querySelectorAll - all <p> tags:", allParagraphs);
